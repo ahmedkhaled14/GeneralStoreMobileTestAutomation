@@ -30,6 +30,11 @@
 * Maven
 * Android Emulator 
 
+ ### 📝 Allure Report:
+
+![allureReport](https://github.com/user-attachments/assets/d85f31c9-ab41-41e0-acee-725e264eab16)
+
+
 
 
 
