@@ -42,6 +42,10 @@
  * Fluent design approach
  
  * Read Data from external JSON file
+
+## 🏗️ Project Structure:
+
+![structure](https://github.com/user-attachments/assets/49adae80-24e2-41ed-95ef-2e64da690c3e)
   
  ### 🗃️ Documentation
 * **[Appium Docs](http://appium.io/docs/en/2.0/quickstart/)**
@@ -65,7 +69,6 @@
 ` mvn clean test` 
 4. Generate reports:
 `allure:serve`
-
 
  ### 📝 Allure Report:
 
