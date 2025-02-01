@@ -25,13 +25,13 @@ public class Setup {
         String appPath = System.getProperty("user.dir") +propertiesReader.getProperty("androidAppPath");
         String appiumServerURL = propertiesReader.getProperty("appiumServerURL");
 
-        if (platform.equalsIgnoreCase(propertiesReader.getProperty("androidPlatform"))) {
+        if (platform.equalsIgnoreCase(propertiesReader.getProperty("Platform"))) {
             UiAutomator2Options androidOptions = new UiAutomator2Options();
             androidOptions.setApp(appPath);
             androidOptions.setAppPackage(propertiesReader.getProperty("appPackage"));
             androidOptions.setAppActivity(propertiesReader.getProperty("appActivity"));
             androidOptions.setAutomationName(propertiesReader.getProperty("androidAutomationName"));
-            androidOptions.setDeviceName(propertiesReader.getProperty("deviceName"));
+            androidOptions.setDeviceName(propertiesReader.getProperty("androidDeviceName"));
             androidOptions.setPlatformName(propertiesReader.getProperty("androidPlatform"));
             androidOptions.setPlatformVersion(propertiesReader.getProperty("androidPlatformVersion"));
             androidOptions.setAppWaitActivity(propertiesReader.getProperty("appActivity"));
@@ -42,7 +42,7 @@ public class Setup {
                 throw new RuntimeException("Error while setting up Android Driver: " + e.getMessage(), e);
             }
 
-        } else if (platform.equalsIgnoreCase(propertiesReader.getProperty("iosPlatform"))) {
+        } else if (platform.equalsIgnoreCase(propertiesReader.getProperty("Platform"))) {
             XCUITestOptions iosOptions = new XCUITestOptions();
             iosOptions.setApp(propertiesReader.getProperty("iosAppPath"));
             iosOptions.setAutomationName(propertiesReader.getProperty("iosAutomationName"));
