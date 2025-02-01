@@ -1,5 +1,4 @@
 <div align="center">
- <img  src="https://user-images.githubusercontent.com/68038931/234968537-984dcbb2-4a3f-40e5-a6f4-3bbc7084beb1.gif" alt="test-light" width="1000" height="250" />
   
  # ✨ *Mobile Automation with Appium: General Store App* ✨
 ## 📱   Appium Demo project using *"General Store APK"*  📱
