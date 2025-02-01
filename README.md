@@ -6,7 +6,7 @@
 
  <center>
   
-![Capture](https://github.com/user-attachments/assets/e3f17225-aa5e-4afc-a470-62f39a1b733c)
+![2025-02-01 02-01-18 00_00_00-00_00_30](https://github.com/user-attachments/assets/1d2fead9-c8c8-4efb-ba75-a337f12d8bdb)
 
 </center>
 
